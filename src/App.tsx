@@ -3,12 +3,12 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Login from './components/login';
 import Register from './components/register';
+import './styles.css'
 
 const App: React.FC = () => {
     return (
         <Router>
             <div>
-                {/* Navigation Links */}
                 <nav>
                     <ul>
                         <li>
